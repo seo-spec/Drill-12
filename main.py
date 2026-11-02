@@ -25,11 +25,13 @@ def handle_events():
 def reset_world():
     global boy
 
+    
+
     boy = Boy()
     game_world.add_object(boy,1)
 
     forest = Forest()
-    game_world.add_object(forest)
+    game_world.add_object(forest,1)
 
 
 def update_world():

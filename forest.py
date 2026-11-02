@@ -5,7 +5,7 @@ class Forest:
         self.image = load_image('grass.png')
     
     def draw(self):
-        self.image.clip_draw(0,31,800,62,400, 30)
+        self.image.clip_draw(0,25,800,62,400, 20)
     
     def update(self):
         pass
